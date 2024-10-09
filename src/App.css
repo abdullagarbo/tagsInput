@@ -1,13 +1,26 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
 }
 
+h1,
+h5 {
+  margin: 10px auto;
+}
+
+.green {
+  color: green;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.blue {
+  color: blue;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 .logo {
-  height: 6em;
-  padding: 1.5em;
+  margin: 10px auto;
   will-change: filter;
   transition: filter 300ms;
   color: #646cff;

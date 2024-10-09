@@ -16,7 +16,7 @@ const TagInput = () => {
 
         return (
           <span key={word} className={isKnownTag ? 'known-tag' : 'custom-tag'}>
-            {word}
+            {word}{' '}
           </span>
         );
       }

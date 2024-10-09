@@ -9,8 +9,10 @@ function App() {
         <p className='logo'>
           <IconTags />
         </p>
+        <h1>Tags Input</h1>
+        <h5 className='green'>Green tags: known tags</h5>
+        <h5 className='blue'>Blue tags: custom tags</h5>
       </div>
-      <h1>Tags Input</h1>
       <TagInput />
     </>
   );
