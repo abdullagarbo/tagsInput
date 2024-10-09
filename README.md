@@ -2,3 +2,4 @@ This template provides a minimal setup to get React working in Vite with HMR and
 
 npm install
 npm run dev
+npm run test
