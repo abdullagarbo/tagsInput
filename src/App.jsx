@@ -1,4 +1,5 @@
 import IconTags from './components/UI/IconTags';
+import TagInput from './components/TagInput';
 import './App.css';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
         </p>
       </div>
       <h1>Tags Input</h1>
+      <TagInput />
     </>
   );
 }
