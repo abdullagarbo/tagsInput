@@ -17,12 +17,6 @@ export default [
         sourceType: 'module',
       },
     },
-    parserOptions: {
-      babelOptions: {
-        babelrc: false,
-        configFile: './babel.config.js',
-      },
-    },
     settings: { react: { version: '18.3' } },
     plugins: {
       react,
