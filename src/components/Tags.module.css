@@ -1,0 +1,11 @@
+.known-tag {
+  color: green;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.custom-tag {
+  color: blue;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

@@ -17,18 +17,8 @@
   height: 40px;
   padding: 5px;
   border: 1px solid #ccc;
-}
-
-.known-tag {
-  color: green;
-  font-weight: bold;
-  font-family: 'Courier New', Courier, monospace;
-}
-
-.custom-tag {
-  color: blue;
-  font-weight: bold;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: medium;
+  color: darkslategrey;
 }
 
 .suggestions {
@@ -38,13 +28,4 @@
   overflow-y: auto;
   position: absolute;
   width: 100%;
-}
-
-.suggestion {
-  padding: 5px;
-  cursor: pointer;
-}
-
-.suggestion:hover {
-  background-color: #f0f0f0;
 }
